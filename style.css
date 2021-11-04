@@ -1,10 +1,11 @@
-/* amp-story {
+amp-story {
         font-family: 'Oswald',sans-serif;
         color: #fff;
       }
 amp-story-page {
         background-color: #000;
       }
+
 h1 {
         font-weight: bold;
         font-size: 2.875em;
@@ -17,6 +18,25 @@ p {
   line-height: 1.5em;
   color: #fff;
 }
+#pos2{
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #010101;
+  
+}
+#pos3{
+  font-weight: bold;
+  font-size: 1em;
+  color: #0f0e17;
+  
+}
+#pos4{
+  font-weight: bold;
+  font-size: 1em;
+  color: #eebbc3;  
+}
+
+/*
 q {
   font-weight: 300;
   font-size: 1.1em;
