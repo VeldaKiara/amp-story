@@ -8,14 +8,13 @@ amp-story-page {
 
 h1 {
         font-weight: bold;
-        font-size: 2.875em;
+        font-size: 2em;
         font-weight: normal;
-        line-height: 1.174;
+/*         line-height: 1.174; */
       }
 p {
   font-weight: normal;
-  font-size: 1.3em;
-  line-height: 1.5em;
+  font-size: 1em;
   color: #fff;
 }
 #pos2{
