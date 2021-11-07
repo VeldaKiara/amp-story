@@ -20,14 +20,15 @@ p {
 }
 #pos2{
   font-weight: bold;
-  font-size: 1.3em;
+  font-size: 1em;
   color: #010101;
+  
   
 }
 #pos3{
   font-weight: bold;
   font-size: 1em;
-  color: #0f0e17;
+  color: #fff;
   
 }
 #pos4{
@@ -35,17 +36,23 @@ p {
   font-size: 1em;
   color: #eebbc3;  
 }
+#pos5{
+  font-weight: bold;
+  font-size: 1em;
+  color: #fff;
+}
 
 /*
 q {
   font-weight: 300;
   font-size: 1.1em;
 }
+*/
 amp-story-grid-layer.bottom {
   align-content:end;
 }
 amp-story-grid-layer.noedge {
-  padding: 0px;
+  padding: 70px;
 }
 amp-story-grid-layer.center-text {
   align-content: center;
@@ -58,5 +65,5 @@ amp-story-grid-layer.center-text {
 .banner-text {
   text-align: center;
   background-color: #000;
-  line-height: 2em;
-} */
+  line-height: 1.5em;
+} 
