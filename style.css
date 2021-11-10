@@ -54,6 +54,7 @@ amp-story-grid-layer.bottom {
 amp-story-grid-layer.center-text {
   align-content: center;
 }
+
 .wrapper {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -64,3 +65,19 @@ amp-story-grid-layer.center-text {
   background-color: #000;
   line-height: 1.5em;
 } 
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 900px) {
+  amp-story-grid-layer.noedge {
+        margin:5px;
+      }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 500px) {
+      amp-story-grid-layer.noedge {
+        padding:0px;
+        margin:1px;
+      }
+}
+ 
+
