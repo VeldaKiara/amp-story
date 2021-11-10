@@ -11,6 +11,8 @@ I implemented some animations on the different pages too.
 You will also notice that the stories are about Huskies. yeapp, I love Siberian Huskies.
 
 Link to view the site: [here](https://vk-siberian-husky-story.netlify.app/)
+
+To remix the project on glitch: [here](https://glitch.com/edit/#!/amp-story-illustration)
  
  
  
