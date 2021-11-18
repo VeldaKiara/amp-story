@@ -11,6 +11,8 @@
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <!-- Import other AMP Extensions here -->
       <script async custom-element="amp-story"src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+    <script async custom-element="amp-video"
+        src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
 <!--     <style amp-custom>
     /* Add your styles here */
     </style> -->
@@ -27,6 +29,7 @@
       -amp-start{from{visibility:hidden}to{visibility:visible}}
     </style>
     <noscript>
+      
       <style amp-boilerplate>
         body{-webkit-animation:none;
           -moz-animation:none;
@@ -34,6 +37,7 @@
           animation:none}
       </style>
     </noscript>
+    
 
     <link rel="canonical" href=".">
     <title>Siberian Husky Story</title>
@@ -160,11 +164,11 @@
          </amp-story-page> 
      </amp-story-page> 
    
-<!--        image  we are adding audio -->
+<!--  video file -->
 
     <amp-story-page id="image-8">
         <amp-story-grid-layer template="fill">
-          <amp-video autoplay
+          <amp-video autoplay loop
                 width="720" height="1280"
                 poster="https://cdn.glitch.me/9d268a31-4635-4f43-a3a6-ff72fc021e86%2Fvideo_2021_11_14_07_22_11.mp4?v=1636968569678"
                 layout="responsive">
@@ -216,9 +220,7 @@
               <amp-story-grid-layer template="vertical" class="center-text">
                   <p class="banner-text" animate-in="twirl-in">Huskies are not our whole life, but they make our lives whole</p>
               </amp-story-grid-layer>
-           </amp-story-page> 
-    
-   
+           </amp-story-page>  
 
   </amp-story>
    
